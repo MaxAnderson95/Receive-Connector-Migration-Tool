@@ -1,10 +1,10 @@
 # Receive Connector Migration Tool
-This PowerShell module allows an administrator to easily migrate receive connectors from one Exchange server to another. Having an automated method to do the migration of receive connectors can help tremendously, if there a large number of connectors, or the connectors have a large number of 'remote IP addresses'.
+This PowerShell module allows an administrator to easily migrate receive connectors from one Exchange server to another. Having an automated method to do the migration of receive connectors can help tremendously if there a large number of connectors, or the connectors have a large number of 'remote IP addresses'.
 
 ## Usage Instructions
 ### Download and Installation
 *Note: You must do this on both the source and target server*
-1. Download the repository from git.vtechamerica.com, and unzip it if necessary.
+1. Download the repository, and unzip it if necessary.
 2. Open the "Exchange Management Shell"
 3. Switch to the directory where the unziped module is located
 ```Powershell
@@ -12,7 +12,7 @@ PS> cd C:\Users\JSmith\Downloads
 ```
 4. Import the module into the PowerShell session
 ```Powershell
-PS> Import-Module .\Receive-Connector-Migrator
+PS> Import-Module .\Receive-Connector-Migration-Tool
 ```
 
 ### Exporting the Receive Connectors on the Source Server
